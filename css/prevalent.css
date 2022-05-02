@@ -1,0 +1,770 @@
+body{
+	font-family: Arial;
+	background: white;
+}
+.header{
+	background: white;
+	padding: 10px;
+}
+.logo img{
+	width: 30%;
+	position: relative;
+	top: 45px;
+	height: auto;
+	max-width: 100%;
+
+}
+.header hr{
+	border: solid 1px #DDDDDD;
+	position: relative;
+	top: 10px;
+}
+.header input{
+	width: 150px;
+	height: 40px;
+	background-repeat: no-repeat;
+	border: none;
+	position: relative;
+	left: 1000px;
+	top: -10px;
+	font-weight: bold;	
+}
+.header input:hover{
+	background-color: #FF0000;
+	color: white;
+}
+.topnav{
+	overflow: hidden;
+	padding: 10px;
+	background: white;
+}
+.topnav a{
+	list-style-type: none;
+  font-family: GTWalsheimVogue, "Noto Sans CJK TC", "Microsoft JhengHei", "Pingfang TC", sans-serif;
+  font-feature-settings: normal;
+  line-break: auto;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 700;
+  color: rgb(45, 46, 47);
+  box-shadow: none;
+  margin: 0px 24px 0px 0px;
+  text-decoration: none;
+  transition: color 0.15s ease-in 0s;
+  flex: 0 0 auto;
+  padding: 14px 0px;
+}
+.topnav a:hover{
+	color: #FF0000;
+}
+.container{
+		font-size: 200%;
+		font-family:GTWalsheimVogue, "Noto Sans CJK TC", "Microsoft JhengHei", "Pingfang TC", sans-serif;
+		padding-bottom: 100px;
+}
+
+.fashion_photo img{
+	position: relative;
+	width: 25%;
+	left: 20px;
+	box-shadow:3px 3px 9px #AAAAAA;
+	height: auto;
+	max-width: 100%;
+}
+.card{
+	position: absolute;
+	bottom: -200px;
+	left:80px;
+	background-color: white;
+	box-shadow:3px 3px 9px #DDDDDD;
+
+}
+.card p{
+	color: #AAAAAA;
+	position: relative;
+	font-size: 12px;
+	font-weight: bold;
+	top: -10px;
+}
+.card h4{
+	position: relative;
+	font-size: 20px;
+	top: -10px;
+}
+.card hr{
+	width: 20%;
+	position: relative;
+	left: -112px;
+	top: -1px;
+	color: black;
+	border: solid 4px #FF0000;
+}
+.fashion_photo1 img{
+	position: relative;
+	width: 25%;
+	left: 450px;
+	bottom: 330px;
+	box-shadow:3px 3px 9px #AAAAAA;
+	height: auto;
+	max-width: 100%;
+}
+.card1{
+	position: absolute;
+	width: 300px;
+	bottom: -260px;
+	left:550px;
+	background-color: white;
+	box-shadow:3px 3px 9px #DDDDDD;
+}
+.card1 p{
+	color: #AAAAAA;
+	position: relative;
+	font-size: 12px;
+	font-weight: bold;
+	top: -10px;
+}
+.card1 h4{
+	position: relative;
+	font-size: 20px;
+	top: -10px;
+	text-align: left;
+}
+.card1 hr{
+	width: 20%;
+	position: relative;
+	left: -117px;
+	top: -1px;
+	color: black;
+	border: solid 4px #FF0000;
+}
+.fashion_photo2 img{
+	position: relative;
+	width: 20%;
+	left: 900px;
+	bottom: 730px;
+	box-shadow:3px 3px 9px #AAAAAA;
+	height: auto;
+	max-width: 100%;
+}
+.card2{
+	position: absolute;
+	width: 300px;
+	bottom: -160px;
+	left:940px;
+	background-color: white;
+	box-shadow:3px 3px 9px #DDDDDD;
+}
+.card2 p{
+	color: #AAAAAA;
+	position: relative;
+	font-size: 12px;
+	font-weight: bold;
+	top: -10px;
+}
+.card2 h4{
+	position: relative;
+	font-size: 20px;
+	top: -10px;
+	text-align: left;
+}
+.card2 hr{
+	width: 20%;
+	position: relative;
+	left: -117px;
+	top: -1px;
+	color: black;
+	border: solid 4px #FF0000;
+}
+
+.New_content p{
+	position: absolute;
+	top: 800px;
+}
+.News_photo img{
+	width: 40%;
+	position: relative;
+	top: -450px;
+	box-shadow:3px 3px 9px #AAAAAA;
+	height: auto;
+	max-width: 100%;
+}
+.on-top{
+	position: absolute;
+	opacity: 0;
+	transition: all 200ms ease-in-out;
+	top: 950px;
+	left: 20px;
+	width: 400px;
+}
+.on-top:hover{
+	opacity: 1;
+}
+.on-top p{
+	color: white;
+	position: relative;
+	font-size: 16px;
+	top: -10px;
+	font-weight: bold;
+}
+.on-top h4{
+	position: relative;
+	font-size: 50px;
+	top: -10px;
+	text-align: left;
+	color: white;
+	font-family:GTWalsheimVogue, "Noto Sans CJK TC", "Microsoft JhengHei", "Pingfang TC", sans-serif; 
+}
+.on-top hr{
+	width: 20%;
+	position: relative;
+	left: -150px;
+	top: -1px;
+	color: black;
+	border: solid 4px white;
+}
+.News_photo1 img{
+	width: 25%;
+	position: absolute;
+	top: 912px;
+	left: 550px;
+	box-shadow:3px 3px 9px #AAAAAA;
+	height: auto;
+	max-width: 100%;
+}
+.New_card{
+	position: absolute;
+	top: 1180px;
+	left: 580px;
+	background-color: white;
+	width: 300px;
+	box-shadow:3px 3px 9px #DDDDDD;
+}
+.New_card p{
+	position: relative;
+	font-size: 12px;
+	top: -10px;
+	font-weight: bold;
+	color: #AAAAAA;
+}
+.New_card h4{
+	position: relative;
+	font-size: 20px;
+	top: -10px;
+	text-align: left;
+	font-family:GTWalsheimVogue, "Noto Sans CJK TC", "Microsoft JhengHei", "Pingfang TC", sans-serif; 
+}
+.New_card hr{
+	width: 20%;
+	position: relative;
+	left: -120px;
+	top: -1px;
+	border: solid 4px #FF0000;
+}
+.New_photo2 img{
+	width: 10%;
+	position: absolute;
+	top: 903px;
+	left: 950px;
+	background-color: white;
+	width: 300px; 
+	box-shadow:3px 3px 9px #AAAAAA;
+	height: auto;
+	max-width: 100%;
+}
+.New_card1{
+	position: absolute;
+	top: 1300px;
+	left: 1000px;
+	background-color: white;
+	width: 250px;
+	box-shadow:3px 3px 9px #DDDDDD;
+}
+.New_card1 p{
+	position: relative;
+	font-size: 12px;
+	top: -10px;
+	font-weight: bold;
+	color: #AAAAAA;
+}
+.New_card1 h4{
+	position: relative;
+	font-size: 20px;
+	top: -10px;
+	text-align: left;
+	font-family:GTWalsheimVogue, "Noto Sans CJK TC", "Microsoft JhengHei", "Pingfang TC", sans-serif; 
+}
+.New_card1 hr{
+	width: 20%;
+	position: relative;
+	left: -100px;
+	top: -1px;
+	border: solid 4px #FF0000;
+}
+.New_photo3 img{
+	width: 25%;
+	position: absolute;
+	top: 1420px;
+	left: 550px;
+	background-color: white;
+	width: 300px;
+	box-shadow:3px 3px 9px #AAAAAA;
+	height: auto;
+	max-width: 100%; 
+}
+.New_card2{
+	position: absolute;
+	top: 1530px;
+	left: 780px;
+	background-color: white;
+	width: 250px;
+	box-shadow:3px 3px 9px #DDDDDD;
+}
+.New_card2 p{
+	position: relative;
+	font-size: 12px;
+	top: -10px;
+	font-weight: bold;
+	color: #AAAAAA;
+}
+.New_card2 h4{
+	position: relative;
+	font-size: 20px;
+	top: -10px;
+	text-align: left;
+	font-family:GTWalsheimVogue, "Noto Sans CJK TC", "Microsoft JhengHei", "Pingfang TC", sans-serif;
+}
+.New_card2 hr{
+	width: 20%;
+	position: relative;
+	left: -100px;
+	top: -1px;
+	border: solid 4px #FF0000;
+}
+.Beauty_content p{
+	position: absolute;
+	top: 1700px;
+}
+.Beauty_photo img{
+	position: relative;
+	top: -300px;
+	width: 40%;
+	box-shadow:3px 3px 9px #AAAAAA;
+	height: auto;
+	max-width: 100%;
+}
+.Beauty_card{
+	position: absolute;
+	opacity: 0;
+	transition: all 200ms ease-in-out;
+	top: 2000px;
+	left: 20px;
+	width: 400px;
+}
+.Beauty_card:hover{
+	opacity: 1;
+}
+.Beauty_card p{
+	color: white;
+	position: relative;
+	font-size: 16px;
+	top: -10px;
+	font-weight: bold;
+}
+.Beauty_card h4{
+	position: relative;
+	font-size: 50px;
+	top: -10px;
+	text-align: left;
+	color: white;
+	font-family:GTWalsheimVogue, "Noto Sans CJK TC", "Microsoft JhengHei", "Pingfang TC", sans-serif; 
+}
+.Beauty_card hr{
+	width: 20%;
+	position: relative;
+	left: -150px;
+	top: -1px;
+	color: white;
+	border: solid 4px white;
+}
+.Beauty_photo1 img{
+	width: 20%;
+	position: absolute;
+	top: 1816px;
+	left: 570px;
+	box-shadow:3px 3px 9px #AAAAAA;
+	height: auto;
+	max-width: 100%;
+}
+.Beauty_card1{
+	position: absolute;
+	top: 2150px;
+	left: 600px;
+	background-color: white;
+	width: 250px;
+	box-shadow:3px 3px 9px #DDDDDD;
+}
+.Beauty_card1 p{
+	position: relative;
+	font-size: 12px;
+	top: -10px;
+	font-weight: bold;
+	color: #AAAAAA;
+}
+.Beauty_card1 h4{
+	position: relative;
+	font-size: 20px;
+	top: -10px;
+	text-align: left;
+	font-family:GTWalsheimVogue, "Noto Sans CJK TC", "Microsoft JhengHei", "Pingfang TC", sans-serif; 
+}
+.Beauty_card1 hr{
+	width: 20%;
+	position: relative;
+	left: -100px;
+	top: -1px;
+	border: solid 4px #FF0000;
+}
+.Beauty_photo2 img{
+	width: 20%;
+	position: absolute;
+	top: 1816px;
+	left: 950px;
+	box-shadow:3px 3px 9px #AAAAAA;
+	height: auto;
+	max-width: 100%;
+}
+.Beauty_card2{
+	position: absolute;
+	top: 2150px;
+	left: 1000px;
+	background-color: white;
+	width: 200px;
+	box-shadow:3px 3px 9px #DDDDDD;
+}
+.Beauty_card2 p{
+	position: relative;
+	font-size: 12px;
+	top: -10px;
+	font-weight: bold;
+	color: #AAAAAA
+}
+.Beauty_card2 h4{
+	position: relative;
+	font-size: 20px;
+	top: -10px;
+	text-align: left;
+	font-family:GTWalsheimVogue, "Noto Sans CJK TC", "Microsoft JhengHei", "Pingfang TC", sans-serif;
+}
+.Beauty_card2 hr{
+	width: 20%;
+	position: relative;
+	left: -80px;
+	top: -1px;
+	border: solid 4px #FF0000;
+}
+.Beauty_photo3 img{
+	width: 16%;
+	position: absolute;
+	top: 2350px;
+	left: 580px;
+	box-shadow:3px 3px 9px #AAAAAA;
+	height: auto;
+	max-width: 100%;
+}
+.Beauty_card3{
+	position: absolute;
+	top: 2480px;
+	left: 700px;
+	background-color: white;
+	width: 200px;
+	box-shadow:3px 3px 9px #DDDDDD;
+}
+.Beauty_card3 p{
+	position: relative;
+	font-size: 12px;
+	top: -10px;
+	font-weight: bold;
+	color: #AAAAAA
+}
+.Beauty_card3 h4{
+	position: relative;
+	font-size: 20px;
+	top: -10px;
+	text-align: left;
+	font-family:GTWalsheimVogue, "Noto Sans CJK TC", "Microsoft JhengHei", "Pingfang TC", sans-serif;
+}
+.Beauty_card3 hr{
+	width: 20%;
+	position: relative;
+	left: -80px;
+	top: -1px;
+	border: solid 4px #FF0000;
+}
+.Luxury_content p{
+	position: absolute;
+	top: 2700px;
+}
+.Luxury_photo img{
+	width: 40%;
+	position: relative;
+	top: -50px;
+	box-shadow:3px 3px 9px #AAAAAA;
+	height: auto;
+	max-width: 100%;
+}
+.Luxury_card{
+	position: absolute;
+	opacity: 0;
+	transition: all 200ms ease-in-out;
+	top: 2870px;
+	left: 20px;
+	width: 400px;
+}
+.Luxury_card:hover{
+	opacity: 1;
+}
+.Luxury_card p{
+	color: white;
+	position: relative;
+	font-size: 15px;
+	top: -10px;
+	font-weight: bold;
+}
+.Luxury_card h4{
+	position: relative;
+	font-size: 50px;
+	top: -10px;
+	text-align: left;
+	color: white;
+	font-family:GTWalsheimVogue, "Noto Sans CJK TC", "Microsoft JhengHei", "Pingfang TC", sans-serif; 
+}
+.Luxury_card hr{
+	width: 20%;
+	position: relative;
+	left: -150px;
+	top: -1px;
+	color: white;
+	border: solid 4px white;
+}
+.Luxury_photo1 img{
+	width: 20%;
+	position: absolute;
+	top: 2820px;
+	left: 570px;
+	box-shadow:3px 3px 9px #AAAAAA;
+	height: auto;
+	max-width: 100%;
+}
+.Luxury_card1{
+	position: absolute;
+	top: 3120px;
+	left: 600px;
+	background-color: white;
+	width: 250px;
+	box-shadow:3px 3px 9px #DDDDDD;
+}
+.Luxury_card1 p{
+	position: relative;
+	font-size: 12px;
+	top: -10px;
+	font-weight: bold;
+	color: #AAAAAA
+}
+.Luxury_card1 h4{
+	position: relative;
+	font-size: 20px;
+	top: -10px;
+	text-align: left;
+	font-family:GTWalsheimVogue, "Noto Sans CJK TC", "Microsoft JhengHei", "Pingfang TC", sans-serif;
+}
+.Luxury_card1 hr{
+	width: 20%;
+	position: relative;
+	left: -100px;
+	top: -1px;
+	border: solid 4px #FF0000;
+}
+.Luxury_photo2 img{
+	width: 25%;
+	position: absolute;
+	top: 2820px;
+	left: 900px;
+	box-shadow:3px 3px 9px #AAAAAA;
+	height: auto;
+	max-width: 100%;
+}
+.Luxury_card2{
+	position: absolute;
+	top: 3020px;
+	left: 1000px;
+	background-color: white;
+	width: 250px;
+	box-shadow:3px 3px 9px #DDDDDD;
+}
+.Luxury_card2 p{
+	position: relative;
+	font-size: 12px;
+	top: -10px;
+	font-weight: bold;
+	color: #AAAAAA
+}
+.Luxury_card2 h4{
+	position: relative;
+	font-size: 20px;
+	top: -10px;
+	text-align: left;
+	font-family:GTWalsheimVogue, "Noto Sans CJK TC", "Microsoft JhengHei", "Pingfang TC", sans-serif;
+}
+.Luxury_card2 hr{
+	width: 20%;
+	position: relative;
+	left: -100px;
+	top: -1px;
+	border: solid 4px #FF0000;
+}
+.Luxury_photo3 img{
+	width: 25%;
+	position: absolute;
+	top: 3350px;
+	left: 580px;
+	box-shadow:3px 3px 9px #AAAAAA;
+	height: auto;
+	max-width: 100%;
+}
+.Luxury_card3{
+	position: absolute;
+	top: 3350px;
+	left: 925px;
+	background-color: white;
+	width: 250px;
+	box-shadow:3px 3px 9px #DDDDDD;
+}
+.Luxury_card3 p{
+	position: relative;
+	font-size: 12px;
+	top: -10px;
+	font-weight: bold;
+	color: #AAAAAA
+}
+.Luxury_card3 h4{
+	position: relative;
+	font-size: 20px;
+	top: -10px;
+	text-align: left;
+	font-family:GTWalsheimVogue, "Noto Sans CJK TC", "Microsoft JhengHei", "Pingfang TC", sans-serif;
+}
+.Luxury_card3 hr{
+	width: 20%;
+	position: relative;
+	left: -100px;
+	top: -1px;
+	border: solid 4px #FF0000;
+}
+.back_click input{
+	width: 150px;
+	height: 40px;
+	background-repeat: no-repeat;
+	border: none;
+	position: absolute;
+	left: 550px;
+	top: 3630px;
+	font-weight: bold;
+}
+.back_click input:hover{
+	background-color: #FF0000;
+	color: white;
+}
+.bottom_hr hr{
+	border: solid 1px #DDDDDD;
+	position: relative;
+	top: 60px;
+	width: 90%;
+}
+.footer{
+	height: 200px;
+?position: relative;
+?margin-top: -10px;
+	background-color: ;
+}
+.fb img{
+	width: 3%;
+	position: relative;
+	left: 1000px;
+	top: -10px;
+	height: auto;
+	max-width: 100%;
+}
+.ig img{
+	width: 3%;
+	position: relative;
+	left: 1100px;
+	top: -50px;
+	height: auto;
+	max-width: 100%;
+}
+.wrapper p{
+	font-family:Gabriola;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+	top: -130px;
+}
+.region p{
+	font-family:Gabriola;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: center;
+	position: relative;
+	top: -170px;
+}
+.bottom_wrapper p{
+	font-family:Gabriola;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+	top: -80px;
+}
+.bottom_wrapper hr{
+	width: 5%;
+	position: relative;
+	top: -120px;
+	border: solid 4px #FF0000;
+}
+.bottom_info{
+	position: absolute;
+	top: 4000px;
+	left: 200px;
+}
+.bottom_info a{
+	list-style-type: none;
+  font-family: GTWalsheimVogue, "Noto Sans CJK TC", "Microsoft JhengHei", "Pingfang TC", sans-serif;
+  font-feature-settings: normal;
+  line-break: auto;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 700;
+  color: rgb(45, 46, 47);
+  box-shadow: none;
+  margin: 0px 24px 0px 0px;
+  text-decoration: none;
+  transition: color 0.15s ease-in 0s;
+  flex: 0 0 auto;
+  padding: 14px 0px;
+}
+.bottom_info a:hover{
+	color: #FF0000;
+}
+.time_edit p{
+	font-family: Gabriola;
+	position: absolute;
+	text-align: center;
+	top: 4030px;
+	left: 610px;
+
+}
